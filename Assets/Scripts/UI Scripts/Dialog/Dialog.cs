@@ -5,6 +5,7 @@ using TMPro;
 
 public class Dialog : MonoBehaviour
 {
+    [SerializeField] private int first;
     public TextMeshProUGUI textDisplay;
     private string[,] blocks = {
         //////////////////// 0
@@ -69,7 +70,7 @@ public class Dialog : MonoBehaviour
         "Huh? Wait a minute.",
         "You just stood on the button? That’s...not right. ",
         "No, that’s not right at all!",
-        "Where’s the key? Restart the game I’ll fix that for you.",
+        "Where’s the key? I need to fix that for you. I'll fix it after you beat the level I guess...",
         "",
         "",
         "",
@@ -181,13 +182,25 @@ public class Dialog : MonoBehaviour
         };  
     public float typingSpeed;
 
-    public void Start()
+    public static T[] GetRow<T>(T[,] matrix, int row)
     {
+        var rowLength = matrix.GetLength(1);
+        var rowVector = new T[rowLength];
+
+        for (var i = 0; i < rowLength; i++)
+            rowVector[i] = matrix[row, i];
+
+        return rowVector;
     }
     
-    public void playDialogueChunk(string[] s)
+    public void Start()
     {
-        StartCoroutine(Type(s));
+        playDialogueChunk(first);
+    }
+    
+    public void playDialogueChunk(int i)
+    {
+        StartCoroutine(Type(GetRow<string>(blocks, i)));
     }
     
     IEnumerator Type(string[] sentences) {

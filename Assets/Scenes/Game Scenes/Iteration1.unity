@@ -361,6 +361,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+--- !u!114 &491827127 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1788918782131995228, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+  m_PrefabInstance: {fileID: 487463885}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0a5e59000d9344daf161ff771d25c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &751458539 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4621913097287708083, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
@@ -504,23 +515,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2258526730437442156, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: opened.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2258526730437442156, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: opened.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 491827127}
     - target: {fileID: 2258526730437442156, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: opened.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2258526730437442156, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: opened.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
+      value: playDialogueChunk
       objectReference: {fileID: 0}
     - target: {fileID: 2258526730437442156, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: opened.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.Animator, UnityEngine
+      value: Dialog, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2258526730437442156, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
+      propertyPath: opened.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2258526730437442156, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: opened.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -540,23 +555,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5340941331772385390, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5340941331772385390, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 491827127}
     - target: {fileID: 5340941331772385390, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5340941331772385390, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
+      value: playDialogueChunk
       objectReference: {fileID: 0}
     - target: {fileID: 5340941331772385390, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.Animator, UnityEngine
+      value: Dialog, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340941331772385390, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
+      propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5340941331772385390, guid: ccc07dd4d076ef34b807972b9da36274, type: 3}
       propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument

@@ -1929,6 +1929,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1788918782131995228, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+      propertyPath: first
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788918782131995228, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
       propertyPath: textDisplay
       value: 
       objectReference: {fileID: 2114353537}
@@ -2110,6 +2114,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2114353538 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1788918782131995228, guid: 1740506499a8c224495fd9f7a2fe4aa5, type: 3}
+  m_PrefabInstance: {fileID: 2114353535}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0a5e59000d9344daf161ff771d25c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1719951407392276969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2165,6 +2180,38 @@ PrefabInstance:
       propertyPath: interactor
       value: 
       objectReference: {fileID: 2039468536}
+    - target: {fileID: 1646913298258296609, guid: 49d19f7fa2998f046b52de4007f83c07, type: 3}
+      propertyPath: finished.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646913298258296609, guid: 49d19f7fa2998f046b52de4007f83c07, type: 3}
+      propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646913298258296609, guid: 49d19f7fa2998f046b52de4007f83c07, type: 3}
+      propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2114353538}
+    - target: {fileID: 1646913298258296609, guid: 49d19f7fa2998f046b52de4007f83c07, type: 3}
+      propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646913298258296609, guid: 49d19f7fa2998f046b52de4007f83c07, type: 3}
+      propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: playDialogueChunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646913298258296609, guid: 49d19f7fa2998f046b52de4007f83c07, type: 3}
+      propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Dialog, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646913298258296609, guid: 49d19f7fa2998f046b52de4007f83c07, type: 3}
+      propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646913298258296609, guid: 49d19f7fa2998f046b52de4007f83c07, type: 3}
+      propertyPath: finished.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 9121288162822551581, guid: 49d19f7fa2998f046b52de4007f83c07, type: 3}
       propertyPath: m_Name
       value: Flag

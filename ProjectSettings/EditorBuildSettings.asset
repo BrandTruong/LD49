@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Scenes/TitleScene.unity
     guid: eda240285ff38a54e918bebc91931279
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/OptionScene.unity
     guid: 8fbf46eef6cd95d4f971bb701e1c7dbd
   - enabled: 1
@@ -27,9 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/Iteration5.unity
     guid: df33af61b25b6184bbef77aff5e49ab7
   - enabled: 1
-    path: Assets/Scenes/Game Scenes/Iteration6.unity
-    guid: bc5cecf7e26cbb44c9863405216504cd
-  - enabled: 1
-    path: Assets/Scenes/Game Scenes/Iteration7.unity
-    guid: 08c5b626b9ebb114d97ebcedcb3a890e
+    path: Assets/Scenes/Game Scenes/To be continued.unity
+    guid: 179d4a52c74fe404daa802310ee44926
   m_configObjects: {}
